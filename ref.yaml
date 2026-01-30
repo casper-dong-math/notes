@@ -1,0 +1,36 @@
+tmt:
+  type: Book
+  title: An Introduction to Measure Theory
+  author: Tao, Terence
+  date: 2011
+  parent:
+    type: periodical
+    title: "Graduate Studies in Mathematics"
+    volume: 126
+
+tra:
+  type: Book
+  title: "An Epsilon of Room, I: Real Analysis"
+  author: Tao, Terence
+  date: 2010
+  parent:
+    type: periodical
+    title: "Graduate Studies in Mathematics"
+    volume: 117
+ 
+gba:
+  type: report
+  title: Qiuzhen Lectures on Analysis
+  author: Gui, Bin
+  date: 2023
+  organization: Tsinghua University
+  url: https://binguimath.github.io/Files/2023_Analysis.pdf
+
+gbfa:
+  type: report
+  title: Qiuzhen Lectures on Functional Analysis
+  author: Gui, Bin
+  date: 2025
+  organization: Tsinghua University
+  url: https://binguimath.github.io/Files/2025_FA.pdf
+
