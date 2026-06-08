@@ -34,3 +34,12 @@ gbfa:
   organization: Tsinghua University
   url: https://binguimath.github.io/Files/2025_FA.pdf
 
+ped:
+  type: book
+  title: "Analysis Now"
+  author: "Gert K. Pedersen"
+  date: 1989
+  publisher: "Springer-Verlag"
+  series: "Graduate Texts in Mathematics"
+  volume: 118
+  doi: "10.1007/978-1-4612-1007-8"

@@ -6,8 +6,11 @@
   prop: "Proposition",
 )
 
-#let state(type: "thm", title: none, body) = {
+#let state(type: "thm", number: none, title: none, body) = {
   let line=[#text(weight: "bold")[#abbrev.at(type)]]
+  if number != none {
+    line += [ #text(weight: "bold")[#number]]
+  }
   if title != none {
     line += [ (#text(style: "italic")[#title])]
   }
@@ -30,6 +33,17 @@
   below: 1em,
 )[
   *Sketch of proof* \
+  #body
+]
+
+#let proof(body) = block(
+  //fill: luma(240),
+  stroke: (left: 3pt + luma(88)), 
+  inset: (left: 1em, top: 0.5em, bottom: 0.5em),
+  width: 100%,
+  below: 1em,
+)[
+  *Proof* \
   #body
 ]
 

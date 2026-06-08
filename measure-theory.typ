@@ -456,4 +456,4 @@ We end the section on a climax: the _Kolmogorov extension theorem_.
 #state(title: "Kolmogorov extension")[
   Let $(X_alpha,cal(X)_alpha)$ be a family of measure spaces with topology $cal(T)_alpha$. For each finite $B subset Alpha$, let $mu_B$ be an inner regular probability measure on $product_(alpha in B) cal(X)_alpha$ w.r.t. $product_(alpha in B) cal(T)_alpha$ obeying compatibility i.e. $mu_C$ is the pushforward of $mu_B$ by the projection when $C subset B subset Alpha$. Then there exists a unique probability measure $mu_Alpha$ on $product_(alpha in A) cal(X)_alpha$ compatible with $mu_B$ for any finite $B subset Alpha$.
 ]
-#bibliography("ref.yaml")
+#bibliography("real.yaml")
