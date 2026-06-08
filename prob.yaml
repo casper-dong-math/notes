@@ -1,0 +1,16 @@
+pm:
+  type: book
+  title: Brownian Motion
+  author: 
+    - Peter Mörters
+    - Yuval Peres
+  date: 2010
+  publisher: Cambridge University Press
+
+lg:
+  type: book
+  title: "Brownian Motion, Martingales, and Stochastic Calculus"
+  author: 
+    - Jean-François Le Gall
+  date: 2016
+  publisher: Springer
